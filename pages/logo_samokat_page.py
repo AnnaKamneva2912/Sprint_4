@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-from locators.test_logo_samokat_locator import LogoSamokatLocators
+from locators.logo_samokat_locator import LogoSamokatLocators
 
 class LogoSamokatPage:
     def __init__(self, driver):

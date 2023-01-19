@@ -1,7 +1,7 @@
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-from pages.test_logo_yandex_page import LogoYandexPage
+from pages.logo_yandex_page import LogoYandexPage
 
 
 class TestLogoYandex():

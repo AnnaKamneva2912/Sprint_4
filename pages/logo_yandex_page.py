@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-from locators.test_logo_yandex_locator import LogoYandexLocators
+from locators.logo_yandex_locator import LogoYandexLocators
 
 class LogoYandexPage:
     def __init__(self, driver):

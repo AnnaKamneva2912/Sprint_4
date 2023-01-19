@@ -1,6 +1,6 @@
 
-from locators.test_logo_samokat_locator import LogoSamokatLocators
-from pages.test_logo_samokat_page import LogoSamokatPage
+from locators.logo_samokat_locator import LogoSamokatLocators
+from pages.logo_samokat_page import LogoSamokatPage
 
 
 class TestLogoSamokat():

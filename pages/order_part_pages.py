@@ -5,7 +5,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 
 
-from locators.test_order_locator import OrderPartLocators
+from locators.order_locator import OrderPartLocators
 
 class OrderPartPage:
     def __init__(self, driver):

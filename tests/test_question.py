@@ -1,8 +1,8 @@
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-from locators.test_question_locator import QuestionPartLocators
-from pages.test_question_part_pages import QuestionPartPage
+from locators.question_locator import QuestionPartLocators
+from pages.question_part_pages import QuestionPartPage
 
 class TestQuestionPart():
     def test_question_how_much(self, driver):

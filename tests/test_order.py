@@ -1,6 +1,6 @@
 from selenium.webdriver.support import expected_conditions
-from locators.test_order_locator import OrderPartLocators
-from pages.test_order_part_pages import OrderPartPage
+from locators.order_locator import OrderPartLocators
+from pages.order_part_pages import OrderPartPage
 from selenium.webdriver.support.wait import WebDriverWait
 
 class TestOrderPart():

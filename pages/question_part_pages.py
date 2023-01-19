@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-from locators.test_question_locator import QuestionPartLocators
+from locators.question_locator import QuestionPartLocators
 
 class QuestionPartPage():
     def __init__(self, driver):
